@@ -1,0 +1,10 @@
+package com.cts.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import com.cts.model.Epics;
+@EnableJpaRepositories
+public interface EpicRepository extends JpaRepository<Epics,Integer>{
+
+}
